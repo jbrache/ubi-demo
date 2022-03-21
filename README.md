@@ -2,6 +2,11 @@
 
 This project demonstrates Google Cloud capabilities utilizing a synthetic driver telematics dataset.
 
+TODO:
+1. The modified dataset .csv referenced in the pipelines bucket needs to be adjusted so it's publicly available. The only difference from the original source is the addition of the 'Manual Split' colum which is utilized to split the dataset during AutoML training.
+2. Need to add a BigQuery ML Notebook.
+3. Future work includes building custom models
+
 ## Contributing
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
